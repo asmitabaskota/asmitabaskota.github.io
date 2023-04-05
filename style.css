@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #fff
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+p {
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold:
+}
+.full {
+	width: 50%;
+	max-width: 1000px;
+	min-height: 100px;
+	background-color: #00FFFF;
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+}
+.left {
+	position: initial;
+	background-color: #008080;
+	padding: 20px;
+
+}
+
+.right {
+	position: initial;
+	background-color: #FFC0CB;
+	padding: 20px;
+  
+
+}
+.image, .Contact, .Skills, .Language, .Hobbies, .title,
+.Summary, .Experience, .Education, .project {
+	margin-bottom: 30px;
+}
+.h2 {
+	background-color: rgb(4, 96, 150);
+}
+ 
